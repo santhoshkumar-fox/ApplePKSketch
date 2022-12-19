@@ -163,7 +163,7 @@ const App = () => {
         />
       </View> */}
       
-      <AppleSketch
+      {/* <AppleSketch
       ref={appleSketchRef}
       strokeWidth={5}
       canvasWidth={300}
@@ -178,7 +178,7 @@ const App = () => {
       <Button title='save' onPress={()=>{console.log(appleSketchRef?.current?.saveImage())}}/>
       <Button title='reset' onPress={()=>{appleSketchRef?.current?.reset()}}/>
       <Button title='eraser' onPress={()=>{appleSketchRef?.current?.eraser()}}/>
-      <Button title='pen' onPress={()=>{appleSketchRef?.current?.pen()}}/>
+      <Button title='pen' onPress={()=>{appleSketchRef?.current?.pen()}}/> */}
      
     </View>
   );

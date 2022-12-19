@@ -5,7 +5,6 @@ import CanvasPk from '../nativecomponents/CanvasPk'
 
 const AppleSketch = forwardRef(({strokeWidth,canvasWidth,canvasHeight,drawOnApple,backgroundColor,backgroundImageurl},ref) => {
     const imageref = useRef();
-
     const SketchRedo = async () => {
         try {
           NativeModules.CustomPlayer.redo()
@@ -99,7 +98,7 @@ const AppleSketch = forwardRef(({strokeWidth,canvasWidth,canvasHeight,drawOnAppl
   )
 })
 
-export default AppleSketch
+module.exports = AppleSketch
 
 
 const styles = StyleSheet.create({})
