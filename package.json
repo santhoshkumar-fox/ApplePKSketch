@@ -1,7 +1,7 @@
 {
-  "name": "TestProject",
+  "name": "applepksketch",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -26,5 +26,20 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "This package is use for dwaing something in canvas with some drawing tools and also it only support ios devies",
+  "main": "components/ApplePKSketch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhoshkumar-fox/ApplePKSketch.git"
+  },
+  "keywords": [
+    "applesketch"
+  ],
+  "author": "santhoshkumar vellingiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhoshkumar-fox/ApplePKSketch/issues"
+  },
+  "homepage": "https://github.com/santhoshkumar-fox/ApplePKSketch#readme"
 }
